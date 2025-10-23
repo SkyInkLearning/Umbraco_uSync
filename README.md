@@ -193,12 +193,6 @@ And now all the things in the first persons database should be in yours.
 
 # Workflow:
 
-Everyone needs to have the same workflow.
-
-When you have created something in the backoffice. 
-
-Go to your project and do a pull incase theres something new in the repository.
-
 
 
 
