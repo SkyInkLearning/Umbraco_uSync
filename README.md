@@ -1,4 +1,4 @@
-# Umbraco_uSync
+# Multiple profiles & Umbraco_uSync
 
 Attempting to explain uSync between profiles in Umbraco.
 
