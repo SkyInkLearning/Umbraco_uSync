@@ -3,6 +3,14 @@ Explaining uSync
 
 ## Creating profiles:
 
+To create more startup profiles:
+
+<img src="https://github.com/user-attachments/assets/d60fadc5-e326-4d4f-ba0d-a3d4a7bc5529" height="400">
+
+
+
+
+
 ### Program file:
 
 ```csharp
@@ -82,4 +90,30 @@ var connectionString = builder.Configuration.GetConnectionString("umbracoDbDSN")
   }
 }
 
+```
+
+### In each profile appsettings.json file:
+
+```json
+{
+  "ConnectionStrings": {
+    "umbracoDbDSN": "Server=SKY;Database=UmbracoGroupSimon002;Integrated Security=true;TrustServerCertificate=true;",
+    "umbracoDbDSN_ProviderName": "Microsoft.Data.SqlClient"
+  }
+}
+```
+
+Find the Server and Database names in you Microsoft SQL Server Management Studio.
+
+<img src="https://github.com/user-attachments/assets/eef2827c-6a16-4eab-8048-7b9027582943" width="400">
+
+
+
+
+## Installation and using uSync:
+
+In the package manager console:
+
+```bash
+dotnet add package uSync
 ```
