@@ -77,33 +77,6 @@ Add profiles to the launchsettings file:
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Abdullah": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "applicationUrl": "https://localhost:44389;http://localhost:3795",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Abdullah"
-      }
-    },
-    "Fredrik": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "applicationUrl": "https://localhost:44389;http://localhost:3795",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Fredrik"
-      }
-    },
-    "Shahad": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "applicationUrl": "https://localhost:44389;http://localhost:3795",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Shahad"
-      }
-    },
     "Simon": {
       "commandName": "Project",
       "dotnetRunMessages": true,
